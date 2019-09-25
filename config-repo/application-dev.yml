@@ -4,4 +4,4 @@ server:
 spring:
   application:
     name: spring-cloud-config-server
-test: hello
+  test: hello
