@@ -1,0 +1,16 @@
+server:
+  port: 8005
+spring:
+  application:
+    name: eurekaServer1
+eureka:
+  instance:
+    hostname: s2
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://127.0.0.1:8004/eureka/
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+

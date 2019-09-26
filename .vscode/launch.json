@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DemoApplication",
+            "request": "launch",
+            "mainClass": "com.springboot.eurekaserver.DemoApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<config>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.springboot.config.DemoApplication",
+            "projectName": "config",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<configServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.springboot.config.DemoApplication",
+            "projectName": "configServer",
+            "args": ""
+        }
+    ]
+}
