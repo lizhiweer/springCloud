@@ -9,11 +9,12 @@ eureka:
       defaultZone: http://localhost:8003/eureka/
 #    fetch-registry: false
 #    register-with-eureka: false
-zuul:
-  routes:
-    aaa:
-      path: /test/**        
-      url: http://localhost:8803/
-    api:
-      path: /abc/**
-      service-id: eurekaclient
+# zuul:
+#   routes:
+#     aaa:
+#       path: /test/**        
+#       url: http://localhost:8803/
+#     api:
+#       path: /abc/**
+#       service-id: eurekaclient
+
