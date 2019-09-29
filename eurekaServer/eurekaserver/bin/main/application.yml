@@ -5,15 +5,13 @@ spring:
     name: eurekaServer
 eureka:
   instance:
-    hostname: s1
+    hostname: localhost
   client:
-    fetch-registry: false
-    register-with-eureka: false
+    fetch-registry: true
+    register-with-eureka: true
     service-url:
-      defaultZone: http://127.0.0.1:8003/eureka/
+      defaultZone: http://127.0.0.1:8004/eureka/
   server:
     wait-time-in-ms-when-sync-empty: 0
-    enable-self-preservation: false     #关闭自我保护
-    eviction-interval-timer-in-ms: 60000   #清理间隔
     
 

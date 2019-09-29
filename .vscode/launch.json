@@ -25,6 +25,16 @@
             "mainClass": "com.springboot.config.DemoApplication",
             "projectName": "configServer",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<eurekaserver1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.springboot.eurekaserver1.DemoApplication",
+            "projectName": "eurekaserver1",
+            "args": ""
         }
     ]
 }
