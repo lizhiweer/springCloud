@@ -1,6 +1,14 @@
 spring:
   application:
     name: eurekaclient1
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://120.77.212.44:9411/
 server:
   port: 8803
 eureka:

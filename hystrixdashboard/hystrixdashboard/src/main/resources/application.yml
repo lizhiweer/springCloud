@@ -1,0 +1,15 @@
+server:
+  port: 8818
+spring:
+  application:
+    name: hystrix-dashboard
+manager:
+  enpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8003/eureka/
+
